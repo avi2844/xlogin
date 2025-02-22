@@ -26,7 +26,7 @@ function Home(){
             <h1>Login Page</h1>
             {isvalid|| <span>Invalid username or password</span>}
             {
-                (loggedIn) ? <span>Welcome, user!</span> : 
+                (loggedIn) ? <span>Welcome, user</span> : 
                 <form onSubmit={handleSubmit}>
                 <label htmlFor="username">Username:</label>
                 <input type="text" name="username" placeholder="username" required onChange={handleChange}></input><br />
