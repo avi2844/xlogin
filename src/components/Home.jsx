@@ -11,7 +11,7 @@ function Home(){
 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        if(formData.username === "user" && formData.password === "Password"){
+        if(formData.username === "user" && formData.password === "password"){
             setIsValid(true);
             setloggedIn(true);
         }
